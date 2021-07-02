@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B51C2F82-6EB7-DE78-6105-03D636215522" name="CAPACITACION">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-02 20:12:24 UTC</createdTime>
+<ownerDesignName>baseadra</ownerDesignName>
+<engineerTo>
+<item key="34965CE3-4932-7022-7A9F-B6D5049BD214" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="34965CE3-4932-7022-7A9F-B6D5049BD214" mainViewID="1066CF95-DFF6-7B3B-AA9A-4BE14446A4E3">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-02 19:55:00 UTC</createdTime>
+<ownerDesignName>baseadra</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

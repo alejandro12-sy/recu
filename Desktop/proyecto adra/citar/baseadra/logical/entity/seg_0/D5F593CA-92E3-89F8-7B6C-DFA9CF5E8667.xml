@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5F593CA-92E3-89F8-7B6C-DFA9CF5E8667" name="USUARIO">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-02 19:55:56 UTC</createdTime>
+<ownerDesignName>baseadra</ownerDesignName>
+<engineerTo>
+<item key="34965CE3-4932-7022-7A9F-B6D5049BD214" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="usurio_id" id="B97C2447-1146-1894-BDF9-94179750EA52">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-02 19:58:50 UTC</createdTime>
+<ownerDesignName>baseadra</ownerDesignName>
+<engineerTo>
+<item key="34965CE3-4932-7022-7A9F-B6D5049BD214" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="645F736B-929C-73EC-8C3E-40E288F6FF8B">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-02 20:00:54 UTC</createdTime>
+<ownerDesignName>baseadra</ownerDesignName>
+<engineerTo>
+<item key="34965CE3-4932-7022-7A9F-B6D5049BD214" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contraseña" id="AF663AF0-E9C2-A52D-4AB6-FD5188BD7626">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-02 20:01:26 UTC</createdTime>
+<ownerDesignName>baseadra</ownerDesignName>
+<engineerTo>
+<item key="34965CE3-4932-7022-7A9F-B6D5049BD214" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7CBC9565-AD99-89B1-B9B9-1C76F60BEFE9" name="usuario PK">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-02 19:59:24 UTC</createdTime>
+<ownerDesignName>baseadra</ownerDesignName>
+<engineerTo>
+<item key="34965CE3-4932-7022-7A9F-B6D5049BD214" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B97C2447-1146-1894-BDF9-94179750EA52</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

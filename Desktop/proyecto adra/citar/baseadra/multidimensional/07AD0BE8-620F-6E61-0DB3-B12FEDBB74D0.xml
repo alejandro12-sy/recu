@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<MultidimensionalDesign class="oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign" name="Multidimensional_1" id="07AD0BE8-620F-6E61-0DB3-B12FEDBB74D0" mainViewID="E27C8E8B-D3F7-FA7F-EEFF-F9C721C906A2" boundModel="5E1E311C-9B1F-1C82-F680-164C4A2C1BF5">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-02 19:55:44 UTC</createdTime>
+<ownerDesignName>baseadra</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</MultidimensionalDesign>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="baseadra" id="8E71504E-3D2C-D7A4-8DEE-AC6E09788B3F" version="3.5">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-02 19:54:56 UTC</createdTime>
+<ownerDesignName>baseadra</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8E71504E-3D2C-D7A4-8DEE-AC6E09788B3F</designId>
+</OSDM_Design>
