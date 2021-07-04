@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bdprueba" id="A92B9940-0A2C-F934-CA3C-D3509F2455F7" version="3.5">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-04 22:36:40 UTC</createdTime>
+<ownerDesignName>bdprueba</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A92B9940-0A2C-F934-CA3C-D3509F2455F7</designId>
+</OSDM_Design>
