@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA398989-1B21-49FD-E07C-DA4E15114D19" name="PROG_CAPCITACION">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-09 18:51:05 UTC</createdTime>
+<ownerDesignName>CAPCITACION</ownerDesignName>
+<engineerTo>
+<item key="1FA69066-FD02-EDD4-5315-494E35EA6B96" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

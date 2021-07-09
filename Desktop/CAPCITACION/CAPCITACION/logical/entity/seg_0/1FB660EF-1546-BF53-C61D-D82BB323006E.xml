@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FB660EF-1546-BF53-C61D-D82BB323006E" name="PERSONA">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-09 18:46:14 UTC</createdTime>
+<ownerDesignName>CAPCITACION</ownerDesignName>
+<engineerTo>
+<item key="1FA69066-FD02-EDD4-5315-494E35EA6B96" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PERSONA_ID" id="B27910CC-F593-57AB-5133-21C1D7CBE9BB">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-09 18:47:03 UTC</createdTime>
+<ownerDesignName>CAPCITACION</ownerDesignName>
+<engineerTo>
+<item key="1FA69066-FD02-EDD4-5315-494E35EA6B96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="ACF5F59B-63FD-FD47-00D3-FCCC957BCBDC">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-09 19:50:17 UTC</createdTime>
+<ownerDesignName>CAPCITACION</ownerDesignName>
+<engineerTo>
+<item key="1FA69066-FD02-EDD4-5315-494E35EA6B96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO_PAT" id="91A34034-91CE-2CAF-6FC9-381FA302F859">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-09 19:51:38 UTC</createdTime>
+<ownerDesignName>CAPCITACION</ownerDesignName>
+<engineerTo>
+<item key="1FA69066-FD02-EDD4-5315-494E35EA6B96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO_MAT" id="07071DAB-E687-2084-1955-11D1E7A54909">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-09 19:53:01 UTC</createdTime>
+<ownerDesignName>CAPCITACION</ownerDesignName>
+<engineerTo>
+<item key="1FA69066-FD02-EDD4-5315-494E35EA6B96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="75A88348-C500-4FBA-8919-D2E2009C8E51">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-09 19:53:22 UTC</createdTime>
+<ownerDesignName>CAPCITACION</ownerDesignName>
+<engineerTo>
+<item key="1FA69066-FD02-EDD4-5315-494E35EA6B96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="F_NACIMIENTO" id="42DD7DA5-5EF2-45F3-35E6-CE8FFBBFEA2C">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-09 19:54:05 UTC</createdTime>
+<ownerDesignName>CAPCITACION</ownerDesignName>
+<engineerTo>
+<item key="1FA69066-FD02-EDD4-5315-494E35EA6B96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEXO" id="26B6B039-C8E7-4F87-CB50-0BEC6ED73698">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-09 19:54:44 UTC</createdTime>
+<ownerDesignName>CAPCITACION</ownerDesignName>
+<engineerTo>
+<item key="1FA69066-FD02-EDD4-5315-494E35EA6B96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="N_TELEFONO" id="91E4A734-7EB6-E9BA-8E81-45818845AB21">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-09 19:55:13 UTC</createdTime>
+<ownerDesignName>CAPCITACION</ownerDesignName>
+<engineerTo>
+<item key="1FA69066-FD02-EDD4-5315-494E35EA6B96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D778D509-DADE-2355-BAE3-672E4BF4A9F0" name="PERSONA PK">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-09 19:50:15 UTC</createdTime>
+<ownerDesignName>CAPCITACION</ownerDesignName>
+<engineerTo>
+<item key="1FA69066-FD02-EDD4-5315-494E35EA6B96" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B27910CC-F593-57AB-5133-21C1D7CBE9BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

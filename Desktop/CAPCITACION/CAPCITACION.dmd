@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CAPCITACION" id="FF77E943-D206-5378-24A2-0C26F163A994" version="3.5">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-09 18:44:14 UTC</createdTime>
+<ownerDesignName>CAPCITACION</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FF77E943-D206-5378-24A2-0C26F163A994</designId>
+</OSDM_Design>
