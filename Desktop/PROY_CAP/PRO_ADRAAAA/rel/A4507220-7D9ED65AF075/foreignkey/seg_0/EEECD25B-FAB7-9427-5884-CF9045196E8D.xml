@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EEECD25B-FAB7-9427-5884-CF9045196E8D" containerWithKeyObject="9813E2F5-D2CC-8551-3CD0-4C5F311FC0B8" localFKIndex="8D39199F-B7E4-5116-0F38-C146CEB78EB5" name="prog_capcitacion_capacitacion_FK">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>FF67022D-D25E-1FED-2956-A2E470A4C03A</importedID>
+<referredTableLongName>capacitacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BEF85EDE-86D0-2343-4DEB-308DD5E991FA</referredTableID>
+<keyObject>5223D826-2CDB-3F03-DC2F-30998706C41C</keyObject>
+<referredKeyID>5223D826-2CDB-3F03-DC2F-30998706C41C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>capcitacion_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

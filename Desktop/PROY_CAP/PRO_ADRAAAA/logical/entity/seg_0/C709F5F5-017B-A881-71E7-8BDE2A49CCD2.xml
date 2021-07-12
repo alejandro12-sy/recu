@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C709F5F5-017B-A881-71E7-8BDE2A49CCD2" name="prog capcitacion">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>9813E2F5-D2CC-8551-3CD0-4C5F311FC0B8</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="prog capacitacion" id="7376D74F-DB70-8A73-F973-17D3DC783B5F">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>F022FA54-C49F-DF68-B275-1E94E62C629B</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>25C7A205-31B7-B8A4-2D4B-74603A81F3C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inicio periodo" id="21EAF380-9168-225F-5F2A-CDB54A66A029">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>73AA3885-03D3-9D9B-B78D-A7B2E19D84B5</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>A16BAA93-2DC4-8848-F584-4DB0364E61BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fin periodo" id="94CA329A-D806-43C6-5943-66627C59B555">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>849F82A4-B855-9E5A-D503-A37485813968</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>A16BAA93-2DC4-8848-F584-4DB0364E61BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="instructor instructor id" id="4D84993A-3C7F-0687-3ADB-9B38BDD12054">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>59EAF6E4-F782-139C-2C63-1F1F3704671B</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<referedAttribute>E9679B5B-54C7-1803-F08A-E99491AFA554</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>25C7A205-31B7-B8A4-2D4B-74603A81F3C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capacitacion capcitacion id" id="E54B81FB-280D-B46D-0666-307614D79573">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>5E85B483-359C-E121-7747-2FE232FBE7C3</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<referedAttribute>088EEBB6-16B3-8BAE-1232-80A2E29EA59C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>25C7A205-31B7-B8A4-2D4B-74603A81F3C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1BA626D8-78CD-2A85-0C44-A85192471A7A" name="prog capcitacion pk">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>372A081F-2258-59C5-8EBE-92BB546BCDCA</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7376D74F-DB70-8A73-F973-17D3DC783B5F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

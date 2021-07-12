@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7A18797-1CEF-3699-5A63-4939E7077CB1" name="asociacion comunal">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>F1F351B7-B014-721B-1F6A-E68F3F917935</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="asociacion comunal id" id="F8690751-4A4F-6EDC-1103-102F3E518FA5">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>A3AD60F1-04B1-6E15-46A7-37B052A33E58</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>25C7A205-31B7-B8A4-2D4B-74603A81F3C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="A5E99609-89EB-25BC-2AB4-6C168936E1BE">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>0F7BD9CE-0404-E9E1-D500-C54B12685869</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BCBE72B2-2221-DD37-A632-D3298468B137</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="299E0AAB-148A-E181-EF17-1E09B4C43BA0" name="asociacion comunal pk">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>44D975D9-24E8-8336-6FB2-75A622ED89C8</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8690751-4A4F-6EDC-1103-102F3E518FA5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDDB82D8-EFC1-3FA8-CFE0-D7A637573A86" name="clase">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>9BB41732-3142-7CE6-27CD-CB337D2B0D8D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="clase_id" id="FE17E17F-731F-D967-BB30-40D35392E65A">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>86C20FC7-E5BC-249A-A1A8-C1FC375FEA2D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>25C7A205-31B7-B8A4-2D4B-74603A81F3C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_sesion" id="3A08C76C-A54A-33BB-AC68-1F1AF9C198D2">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>BECAD0BA-7ED3-FFBC-3A5A-B676A0FD47BE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>25C7A205-31B7-B8A4-2D4B-74603A81F3C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="f_clase" id="73BE0E82-9B9C-7F24-DD2C-0EAB22C9293F">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>E5DFCCFD-F7AC-280A-F02A-1530945E5C32</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>A16BAA93-2DC4-8848-F584-4DB0364E61BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacitacion_capcitacion_id" id="D950770B-061F-481F-90E4-F8F1705E873C">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>F37510A3-11FB-AC12-5519-B74BB5B648A9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>25C7A205-31B7-B8A4-2D4B-74603A81F3C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F635007-79AC-12BB-116E-78DD07882028" referredColumn="AD0B07D4-5A77-0B7C-E7D5-AC2C13F5E9D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E3E32E4-31BD-9DAE-F23A-EC6C28EA84FE" name="clase_PK">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>7EF1B42D-BC16-3A35-5886-D50BDFDD6C4A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE17E17F-731F-D967-BB30-40D35392E65A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C866C63-4700-0510-6CC1-A1700C422CAA" name="clase_capacitacion_FK">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D950770B-061F-481F-90E4-F8F1705E873C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

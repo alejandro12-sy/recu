@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF63F276-37E9-2056-7A1B-971A1408CAC3" name="satisfaccion">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>035EA225-1E46-5DB0-79EE-7C5B88C2FBF1</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="satisfaccion" id="7644FB4E-9310-6B62-F74E-067B1F12045E">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>3D31B3D4-330E-BD30-AB99-0310A0014FC1</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>25C7A205-31B7-B8A4-2D4B-74603A81F3C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="menjaje opinion" id="E82E60B3-C5BC-B785-1996-67C5A8F6B869">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>793E25A1-654E-50B8-1187-77AEFBB01FBF</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>973CB3DC-5615-D50F-EE30-B21F0B9CB0FE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="f satisfaccion" id="58DD1A55-32DD-CF87-55D9-03BB694D1D80">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>B1A042B3-2C84-5A78-8FF5-766FE6D11CD6</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>A16BAA93-2DC4-8848-F584-4DB0364E61BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valoracion" id="0321295A-1FF4-8E8D-50D9-01BD2715A54B">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>282F6B08-3543-4D39-D05B-BBC5B667291C</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>25C7A205-31B7-B8A4-2D4B-74603A81F3C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inscripcion inscripcion id" id="8D14CC39-4387-4C1E-6039-9FB86DAC2E34">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>E3CFECD9-50DD-E541-AAC9-E4829942C548</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<referedAttribute>69092CF6-3B9A-D64E-70BE-F4DCA8593FB7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>25C7A205-31B7-B8A4-2D4B-74603A81F3C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clase clase id" id="A3D2C29F-CC45-8243-B718-79B8F906B71A">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>A7CC9EEF-1249-2835-DB81-DBF01C947798</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<referedAttribute>D144CD20-7B48-CB38-7BA1-71922BB05803</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>25C7A205-31B7-B8A4-2D4B-74603A81F3C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20DAE851-7A37-DF08-3EED-9D32845F55C0" name="satisfaccion pk">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>3943121C-C2A3-E278-10EE-F6F33B438AAC</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7644FB4E-9310-6B62-F74E-067B1F12045E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A915A3AE-7A1B-5CDD-1B92-8594D7AA3814" name="estado civil">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>3A57E4C8-0F33-9C0A-6C68-F5CC5059EAB7</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="estado civil id" id="3354C3EF-E2A1-441D-F1A7-B9970DBF259A">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>4B9B62A4-362E-5A6D-40D8-A25B52E736CC</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>25C7A205-31B7-B8A4-2D4B-74603A81F3C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="BB8E3A50-26F1-7668-A3B2-677EE4486793">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>D2E89871-4B46-7F99-3A6A-C9413B4990CE</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BCBE72B2-2221-DD37-A632-D3298468B137</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F895EEE0-4524-561E-EF40-C5CDCE7C1070" name="estado civil pk">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>CDFF8FC1-0A19-3393-A695-0B6A53B71EDD</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3354C3EF-E2A1-441D-F1A7-B9970DBF259A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

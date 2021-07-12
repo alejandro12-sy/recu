@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="persona_estado_civil_fk" directorySegmentName="seg_0" id="5BB37FD6-B8AC-A36D-D97B-79878348BC53">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>CB66768B-8B6D-9430-FCD0-1C2CFED5AE48</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<sourcePk>F895EEE0-4524-561E-EF40-C5CDCE7C1070</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A915A3AE-7A1B-5CDD-1B92-8594D7AA3814</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FDBC2E4C-8257-2260-1039-4CBCBC662DE6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

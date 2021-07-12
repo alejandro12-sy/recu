@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4FAFB344-E043-E0C5-208F-1766EC08A0AA" containerWithKeyObject="1CFCE861-9602-F3E3-F146-2BA41F8A7B32" localFKIndex="20789DC8-9B8D-EB07-C8E7-CFB5B4FEE775" name="socio_asociacion_comunal_FK">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>1DE9268F-C7B1-C6DB-A710-2DFCA1293A39</importedID>
+<referredTableLongName>asociacion_comunal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F1F351B7-B014-721B-1F6A-E68F3F917935</referredTableID>
+<keyObject>44D975D9-24E8-8336-6FB2-75A622ED89C8</keyObject>
+<referredKeyID>44D975D9-24E8-8336-6FB2-75A622ED89C8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>asociacion_comunal_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB66768B-8B6D-9430-FCD0-1C2CFED5AE48" containerWithKeyObject="C6D11004-0BBB-58CE-CA0F-F555B70869ED" localFKIndex="360B6E1F-299D-DBC1-44DD-41CD8E341EC9" name="persona_estado_civil_FK">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>1748446F-656F-708A-3A7F-247D19CBB98B</importedID>
+<referredTableLongName>estado_civil</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3A57E4C8-0F33-9C0A-6C68-F5CC5059EAB7</referredTableID>
+<keyObject>CDFF8FC1-0A19-3393-A695-0B6A53B71EDD</keyObject>
+<referredKeyID>CDFF8FC1-0A19-3393-A695-0B6A53B71EDD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>estado_civil_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

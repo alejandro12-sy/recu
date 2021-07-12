@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="satisfaccion_clase_fk" directorySegmentName="seg_0" id="A7CC9EEF-1249-2835-DB81-DBF01C947798">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>12270EED-FF8D-9BA7-33DA-10412AC6BDD9</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<sourcePk>80D5CC76-6F99-BAE6-4F98-A0E3E270E1A6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7E390077-CAC3-B392-FC07-5037D149EF80</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BF63F276-37E9-2056-7A1B-971A1408CAC3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

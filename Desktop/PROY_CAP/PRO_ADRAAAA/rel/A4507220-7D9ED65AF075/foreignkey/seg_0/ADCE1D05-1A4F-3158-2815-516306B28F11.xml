@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ADCE1D05-1A4F-3158-2815-516306B28F11" containerWithKeyObject="D99777CD-743B-2561-5F26-8D36E769C549" localFKIndex="0D203DC0-9765-3434-B8DB-22ED4B5B552A" name="asistencia_clase_FK">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>B2B313A1-CE38-B206-98E1-DB4ECA257911</importedID>
+<referredTableLongName>clase</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FDDB82D8-EFC1-3FA8-CFE0-D7A637573A86</referredTableID>
+<keyObject>5E3E32E4-31BD-9DAE-F23A-EC6C28EA84FE</keyObject>
+<referredKeyID>5E3E32E4-31BD-9DAE-F23A-EC6C28EA84FE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>clase_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

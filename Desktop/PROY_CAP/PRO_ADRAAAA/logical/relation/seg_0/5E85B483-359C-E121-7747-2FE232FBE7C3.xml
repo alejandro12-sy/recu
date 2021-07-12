@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="prog_cap_cap_fk" directorySegmentName="seg_0" id="5E85B483-359C-E121-7747-2FE232FBE7C3">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>EEECD25B-FAB7-9427-5884-CF9045196E8D</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<sourcePk>F93A1B24-8D95-A6D4-29D7-1FD0C7D5E5C0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4982029D-BF15-E950-2E47-B5CD6E51F5D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C709F5F5-017B-A881-71E7-8BDE2A49CCD2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

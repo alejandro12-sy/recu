@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PRO_ADRAAAA" id="DEAB867F-EC57-90D3-923C-759B660061A8" version="3.5">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:22:23 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DEAB867F-EC57-90D3-923C-759B660061A8</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F811FBC5-DE8F-0FF6-73D1-A3C7785D5F18">
+<designStoragePath>E:\PROYECTO</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="socio_aso_comunal_fk" directorySegmentName="seg_0" id="BDF3DB46-84F0-78AD-81BB-F05E457A6B29">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>4FAFB344-E043-E0C5-208F-1766EC08A0AA</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<sourcePk>299E0AAB-148A-E181-EF17-1E09B4C43BA0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B7A18797-1CEF-3699-5A63-4939E7077CB1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B58A0027-7EFB-510A-60AC-A8C62370727B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

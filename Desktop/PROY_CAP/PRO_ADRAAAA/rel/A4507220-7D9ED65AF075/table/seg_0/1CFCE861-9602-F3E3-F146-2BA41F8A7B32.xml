@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CFCE861-9602-F3E3-F146-2BA41F8A7B32" name="socio">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>E707E71D-F6C7-9DA3-A891-E30A6C5E6DAF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="socio_id" id="BF7A881C-EA1E-CAF2-FE84-58EB615FB6F5">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>B3B4116A-ABCD-A1D3-AB6A-0232BA25AF9B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>25C7A205-31B7-B8A4-2D4B-74603A81F3C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="persona_persona_id" id="E81C37C9-E849-3C6B-57DE-8FF84D11C8BB">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>CC7F0A11-FFDE-7548-DE49-11222B5B3B41</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>25C7A205-31B7-B8A4-2D4B-74603A81F3C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="802F0704-825C-5069-E573-B5E98C4A37E8" referredColumn="D9A5681F-3BF3-7232-BEDE-6DC0A2CA5AE8"/>
+</associations>
+</Column>
+<Column name="asociacion_comunal_asociacion_comunal_id" id="DE91554A-25B1-F7D6-E620-3CF55594E973">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>6CCA4E79-9509-29C4-F03D-56F499E1C943</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>25C7A205-31B7-B8A4-2D4B-74603A81F3C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FAFB344-E043-E0C5-208F-1766EC08A0AA" referredColumn="A3AD60F1-04B1-6E15-46A7-37B052A33E58"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BADBE766-DB65-2260-4018-D87F8B42FA62" name="socio_PK">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>878DBCF9-84E7-473A-174B-3D498216421A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF7A881C-EA1E-CAF2-FE84-58EB615FB6F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D83F49A-7EC0-FB5C-5B68-0A86838CE524" name="socio__idx">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>67362621-0FC6-D9FA-567C-25D822BE13EA</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E81C37C9-E849-3C6B-57DE-8FF84D11C8BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20789DC8-9B8D-EB07-C8E7-CFB5B4FEE775" name="socio_asociacion_comunal_FK">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE91554A-25B1-F7D6-E620-3CF55594E973"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55DF6302-983D-0567-2908-0264F96FBDAD" name="socio_persona_FK">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E81C37C9-E849-3C6B-57DE-8FF84D11C8BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="PROYECTO" id="A4507220-2743-BB6C-5B70-7D9ED65AF075" mainViewID="E8A04D86-05F6-9183-4C2B-B0A27FA5BA7C">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:27:53 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>PROYECTO.ddl</fileName>
+<pathName>C:\Users\SERGESAN PCS2021\Desktop</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

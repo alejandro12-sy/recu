@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4EE11CCE-265B-61A8-B0FC-0BA87F032FE7" containerWithKeyObject="9813E2F5-D2CC-8551-3CD0-4C5F311FC0B8" localFKIndex="27D3C544-679F-475B-1313-CE94CB85F490" name="prog_capcitacion_instructor_FK">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>4B242188-4999-AD3A-1433-D76350EA8DC2</importedID>
+<referredTableLongName>instructor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6CA668F4-E8DB-287B-000F-72F4C7DBF7D9</referredTableID>
+<keyObject>27AD63A0-C9E4-8444-261A-178986EB576A</keyObject>
+<referredKeyID>27AD63A0-C9E4-8444-261A-178986EB576A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>instructor_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

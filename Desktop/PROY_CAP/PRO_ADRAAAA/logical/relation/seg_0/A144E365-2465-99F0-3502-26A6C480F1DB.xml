@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="usuario_rol_fk" directorySegmentName="seg_0" id="A144E365-2465-99F0-3502-26A6C480F1DB">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:29:13 UTC</createdTime>
+<generatorID>5B0F1918-CB79-42F5-2E11-A7270399E569</generatorID>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<engineerTo>
+<item key="A4507220-2743-BB6C-5B70-7D9ED65AF075" value="true"/>
+</engineerTo>
+<sourcePk>002B65C3-5D5B-B51F-8FA7-51B78975B88C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6E2C7BD1-A602-F2B5-F1B3-D525C836DC03</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6E20AED4-9DFF-527D-0265-7F3C44C133EE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

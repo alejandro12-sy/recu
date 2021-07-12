@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9F920AF-6A24-19D8-BF06-9DD0AAD832E6" containerWithKeyObject="BAB33562-D7C2-6EDC-4488-5F44FEC3B9E9" localFKIndex="4C487F80-3A9F-7DD6-BFD0-D09AD7B0BA05" name="inscripcion_socio_FK">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>87C4BFF4-3DC3-E8B9-D7BD-C75CB29745D3</importedID>
+<referredTableLongName>socio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1CFCE861-9602-F3E3-F146-2BA41F8A7B32</referredTableID>
+<keyObject>BADBE766-DB65-2260-4018-D87F8B42FA62</keyObject>
+<referredKeyID>BADBE766-DB65-2260-4018-D87F8B42FA62</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>socio_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

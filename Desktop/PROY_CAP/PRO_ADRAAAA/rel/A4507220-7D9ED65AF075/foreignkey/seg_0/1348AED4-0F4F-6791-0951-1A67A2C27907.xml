@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1348AED4-0F4F-6791-0951-1A67A2C27907" containerWithKeyObject="BEF85EDE-86D0-2343-4DEB-308DD5E991FA" localFKIndex="4C408052-6BE3-E1C1-55ED-869841500478" name="capacitacion_t_capacitacion_FK">
+<sourceDDLFile>PROYECTO.ddl</sourceDDLFile>
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:28:33 UTC</createdTime>
+<ownerDesignName>PRO_ADRAAAA</ownerDesignName>
+<importedID>BAFCC840-574C-68A1-9E22-C9672726D193</importedID>
+<referredTableLongName>t_capacitacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A22300F2-43CF-0011-7379-9D9F27C4D17A</referredTableID>
+<keyObject>658BEF04-0340-01F9-2B20-CD0536584FB9</keyObject>
+<referredKeyID>658BEF04-0340-01F9-2B20-CD0536584FB9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>t_capacitacion_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
