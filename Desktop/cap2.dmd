@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="cap2" id="C0798FCF-7EA7-3E08-2505-64ED474CE849" version="3.5">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:11:38 UTC</createdTime>
+<ownerDesignName>cap2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C0798FCF-7EA7-3E08-2505-64ED474CE849</designId>
+</OSDM_Design>

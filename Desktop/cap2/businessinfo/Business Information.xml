@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="A0BB4C88-B270-70B9-E8FD-B96E9FEBE7D1">
+<createdBy>SERGESAN PCS2021</createdBy>
+<createdTime>2021-07-12 23:11:38 UTC</createdTime>
+<ownerDesignName>cap2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
