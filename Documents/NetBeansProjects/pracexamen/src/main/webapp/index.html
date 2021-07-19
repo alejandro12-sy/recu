@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="recursos/faw/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="recursos/css/bootstrap.min.css"/>
+        <style>
+            .del{
+                color: red;
+                font-weight: bold;
+            }
+            .edit{
+                color: orange;
+                font-weight: bold;
+            }
+            .color{
+               background: #337ab7
+            }
+           .borde
+           { border-color: #265a88    }
+           
+           
+            
+        </style>
+    </head>
+    <body>
+        
+        
+        
+            <div class="modal-dialog  borde" role="document">
+                <div class="modal-content borde">
+                    <div class="modal-header">
+                        <h1 class="modal-title color" id="exampleModalLabel">Ventas</h1>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                          
+                                <select name="facultad" id="facultad" class="form-control">
+                                    <option value="0">Seleccionar Sucursal</option>
+                                </select>
+                            </div>
+                             <div class="form-group">
+                           
+                                <select name="facultad"  class="form-control">
+                                    <option value="0">Seleccionar Cliente</option>
+                                </select>
+                            </div>
+                             <div class="form-group">
+                    
+                                <input type="text" class="form-control" id="escuela" placeholder="Fecha">
+                                <input type="hidden" id="id" value="0">
+                            </div>
+                              <div class="form-group">
+                            
+                                <select name="facultad"  class="form-control">
+                                    <option value="0">Tipo de documento</option>
+                                </select>
+                            </div>
+                          
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+
+  <button  onclick="agregar()" class="btn btn-primary">Registrar</button>
+                    </div>
+                </div>
+            </div>
+       
+      
+        
+        
+        
+        
+        
+        
+        
+        <div class="container" style="max-width: 650px">
+         
+            <hr>
+            
+            <table class="table table-bordered "   id="tablita">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">SUCURSAL</th>
+                        <th scope="col">CLIENTE</th>
+                        <th scope="col">FECHA</th>
+                        <th scope="col">DOCUMENTO</th>
+                        <th scope="col" colspan="2">ACCION</th>
+                    </tr>
+                </thead>
+                <tbody >             
+                </tbody>
+            </table>
+        </div>
+      
+        <script src="recursos/js/jquery-3.3.1.min.js"></script>
+        <script src="recursos/js/bootstrap.min.js"></script>
+        <script src="recursos/js/bootbox.min.js"></script>
+        <script src="recursos/js/escuela.js"></script>
+        <script src="recursos/js/facultad.js"></script>
+    </body>
+</html>
